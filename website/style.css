@@ -1,0 +1,136 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+    background-image: url("sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;    
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    width: 100%;
+
+}
+.user-input, .output{
+    padding-top: 50px;
+
+}
+
+.user-input{
+    background:rgba(255,255,255, 0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 70px;
+
+
+}
+textarea, input{
+    background-color: transparent;
+    color: #4400ff;
+    border: none;
+    border-bottom: 2px solid #4400ff;
+}
+
+
+
+.zip,.feel{
+    width: 100%;
+
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+}
+
+input{
+    height: 60px;
+    width: 320px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 70px;
+}
+
+button{
+    display: block;
+    background: transparent;
+    color: #4400ff;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border:2px solid #4400ff;
+    border-radius: 5px;
+    padding: 2px 15px;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin-bottom: 70px;
+
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    font-family: 'Oswald', sans-serif;
+    color: #4400ff;
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    font-family: 'Oswald', sans-serif;
+    color: #4400ff;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    font-family: 'Oswald', sans-serif;
+    color: #4400ff;
+
+} 
+#entryHolder{
+    color: white;
+    font-size: 1.9em;
+}
+.output{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center; 
+    padding-left: 100px;
+}
+#date{
+margin-bottom: 20px;
+} 
+
+#day{
+    margin-bottom: 20px;
+
+}
+#temp{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+#content{
+    margin-bottom: 20px;
+
+}
