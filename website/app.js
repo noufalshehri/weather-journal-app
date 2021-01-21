@@ -7,7 +7,8 @@ let baseUrl = ''
 let key = -1;
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
+let month = d.getMonth() + 1
+let newDate = month + '.' + d.getDate() + '.' + d.getFullYear();
 
 let weekday = new Array(7);
 weekday[0] = "Sunday";
