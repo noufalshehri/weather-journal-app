@@ -1,0 +1,20 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "an asynchronous web app that uses Web API and user data to dynamically update the UI.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noufalshehri/weather-journal-app.git"
+  },
+  "author": "Nouf Alshehri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noufalshehri/weather-journal-app/issues"
+  },
+  "homepage": "https://github.com/noufalshehri/weather-journal-app#readme"
+}
