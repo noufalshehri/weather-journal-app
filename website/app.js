@@ -1,5 +1,5 @@
 /* Global Variables */
-const startUrl = 'http://api.openweathermap.org/data/2.5/weather?zip='
+const startUrl = 'https://api.openweathermap.org/data/2.5/weather?zip='
 const apiKey = '341ceab91029ef8183e8a87416fc4849'
 let zipCode = ''
 let feelings = ''
